@@ -14,9 +14,11 @@ export const App = () => {
 
   return (
     <div>
-      <h1>Effector Counter</h1>
-      <p>Текущее значение: {count}</p>
-      <button onClick={() => increment()}>Увеличить</button>
+      <h1>Ask Tracker</h1>
+      <p>Отслеживайте своей командой ваши рабочие задачи с гитхаба из коробки
+        test for actions {count}
+      </p>
+      <button onClick={() => increment()}>click</button>
     </div>
   );
 };
